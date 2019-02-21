@@ -69,7 +69,7 @@ public class Main {
             }
             
            
-            //showDbContent(connection);
+            //showDbContent(connection);;
             logAction(String.valueOf(allRecords) + " records recieved !");
             logAction(String.valueOf(failedRecords) + " records failed !");
             logAction(String.valueOf(succesRecords) + " records inserted successfuly !");
