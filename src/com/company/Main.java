@@ -165,7 +165,11 @@ public class Main {
 
         for(int i = 0; i<badArray.length;i++) {
             if (badArray[i].contains("\'")) {
-                badArray[i] = "\"" +badArray[i].replace("\'", "\'\'")+"\"";
+                badArray[i] = badArray[i].replace("\'", "\'\'");
+                
+            }
+            if (badArray[i].contains(",")) {
+                badArray[i] = "\"" +badArray[i]+"\"";
                 
             }
             clearArray[i] = badArray[i];
