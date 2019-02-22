@@ -8,5 +8,4 @@
  - If is necessary add library from library folder to this project
  
  # Result
- - In csvFile folder you can change file but is mandatory the same name
  - In csvFile folder after execution you will be able to see log file and bad data file
